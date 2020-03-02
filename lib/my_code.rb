@@ -12,5 +12,6 @@ end
 
 
 def reduce(array, opt = nil)
-  
+  if opt
+    
 end
