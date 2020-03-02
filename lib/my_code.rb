@@ -13,5 +13,12 @@ end
 
 def reduce(array, opt = nil)
   if opt
-    
+    total = opt
+    i = 0
+  else
+    total = opt[0]
+    i = 1
+  end
+  
+  whu
 end
