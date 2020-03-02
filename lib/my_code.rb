@@ -12,6 +12,7 @@ end
 
 
 def reduce(array, opt = nil)
+ 
   if opt
     total = opt
     i = 0
@@ -24,5 +25,6 @@ def reduce(array, opt = nil)
     total = yield(total, array[i])
     i += 1
   end
+  
   return total
 end
